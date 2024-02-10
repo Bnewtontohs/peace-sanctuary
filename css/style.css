@@ -149,12 +149,11 @@ footer div {
     width: calc(50% * footer);
     height: 100px;
     text-align: center;
-    display: flex;
 }
 
 footer h1 {
     color: rgb(4, 22, 43);
-    font-size: 50px;
+    font-size: 50%;
     font-family: "Caveat", cursive;
     margin: 0 auto;
     padding-top: 20px;
