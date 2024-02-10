@@ -138,7 +138,6 @@ section img {
 
 footer {
     background-color: rgb(104, 133, 229);
-    height: 100px;
     width: 100%;
     display: grid;
     grid-template-columns: 30% 1fr;
@@ -153,10 +152,11 @@ footer div {
 
 footer h1 {
     color: rgb(4, 22, 43);
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Caveat", cursive;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
 }
 
 footer ul {
@@ -209,7 +209,5 @@ footer ul li a:hover{
         width: 75px;
     }
 
-    footer h1 {
-        font-size: 30px;
-    }
+
 }    
