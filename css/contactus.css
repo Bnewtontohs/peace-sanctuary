@@ -1,0 +1,52 @@
+* {
+    font-family: "Caveat", cursive;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #f5e9e9;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+nav {
+    height: 100px;
+    width: calc(100% - 100px);
+    background-image: linear-gradient(180deg, rgb(173, 232, 224), rgb(181, 237, 244), rgb(173, 232, 205));
+    float: left;
+}
+
+nav ul {
+    padding: 0px;
+    padding-top: 30px;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+nav ul li a{
+    color:#000;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: rgb(32, 78, 206);
+    font-size: 31px;
+}
+
+input {
+    border-radius: 1px;
+    padding: 10px;
+    border: solid 2px black;
+}
