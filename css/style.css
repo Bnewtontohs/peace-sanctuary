@@ -149,6 +149,7 @@ footer div {
     width: calc(50% * footer);
     height: 100px;
     text-align: center;
+    display: flex;
 }
 
 footer h1 {
