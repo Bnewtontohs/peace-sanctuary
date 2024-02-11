@@ -67,11 +67,10 @@ nav ul {
 nav ul li {
     display: inline;
     padding-left: 40px;
-    font-size: 30px;
 }
 
-nav ul li a{
-    color:#000;
+nav ul li img {
+    height: 50px;
     transition: 0.5s;
 }
 
