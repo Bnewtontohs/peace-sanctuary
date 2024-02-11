@@ -41,7 +41,8 @@ header {
 
 #navigation {
     text-align: center;
-    background-color: #f5e9e957;
+    background-color: #f5e9e9;
+    opacity: 0;
 }
 
 .display {
