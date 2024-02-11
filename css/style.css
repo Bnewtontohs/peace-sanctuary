@@ -206,5 +206,11 @@ footer ul li {
         width: 75px;
     }
 
-
+    .ruthbio {
+        background-color: rgb(77, 77, 77);
+        width: calc(100% - 50px);
+        display: block;
+        padding: 20px;
+        border: solid 5px white;
+    }
 }    
