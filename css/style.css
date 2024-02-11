@@ -139,9 +139,6 @@ section img {
 footer {
     background-color: rgb(104, 133, 229);
     width: 100%;
-    display: grid;
-    grid-template-columns: 30% 1fr;
-    grid-template-rows: 1fr;
 }
 
 footer div {
@@ -159,6 +156,14 @@ footer h1 {
     padding-left: 20px;
 }
 
+.fd1 {
+    float: left;
+}
+
+.fd2 {
+    float: right;
+}
+
 footer ul {
     float: right;
     padding-right: 40px;
@@ -170,14 +175,6 @@ footer ul li {
     padding-left: 20px;
 }
 
-footer ul li a{
-    color:#000;
-    transition: 0.5s;
-}
-
-footer ul li a:hover{
-    color: rgb(216, 219, 22);
-}
 
 /* Mobile Navigation */
 
