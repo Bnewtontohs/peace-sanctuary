@@ -25,6 +25,7 @@ section img {
 .imageRuth img {
     margin: 0 auto;
     width: 90%;
+    padding: 0 5%;
 }
 
 .bioText p {
@@ -57,10 +58,6 @@ section img {
 
     .ruthbio {
         display: block;
-    }
-
-    .ruthbio img {
-        margin: 0 auto;
     }
 
 }
