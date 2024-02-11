@@ -6,6 +6,7 @@
     text-decoration: none;
 }
 
+/* Header */
 
 header {
     height: 100px;
@@ -124,6 +125,7 @@ footer div {
 footer h1 {
     color: rgb(4, 22, 43);
     font-size: 40px;
+    font-weight: lighter;
     font-family: "Caveat", cursive;
     margin: 0 auto;
     padding-top: 25px;
