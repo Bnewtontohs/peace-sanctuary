@@ -55,6 +55,10 @@ header {
     padding: 10px 0;
 }
 
+#navigation li a {
+    color: rgb(2, 19, 55);
+}
+
 nav {
     grid-area: nav;
 }
@@ -130,7 +134,7 @@ footer h1 {
     font-family: "Caveat", cursive;
     margin: 0 auto;
     padding-top: 25px;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .fd1 {

@@ -59,4 +59,8 @@ section img {
         display: block;
     }
 
+    .ruthbio img {
+        margin: 0 auto;
+    }
+
 }
