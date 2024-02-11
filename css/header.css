@@ -107,3 +107,45 @@ nav ul li a:hover{
         width: 75px;
     }
 }
+
+/* Footer */
+
+footer {
+    background-color: rgb(104, 133, 229);
+    width: 100%;
+}
+
+footer div {
+    width: calc(50% * footer);
+    height: 100px;
+    text-align: center;
+}
+
+footer h1 {
+    color: rgb(4, 22, 43);
+    font-size: 40px;
+    font-family: "Caveat", cursive;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.fd1 {
+    float: left;
+}
+
+.fd2 {
+    float: right;
+}
+
+footer ul {
+    float: right;
+    padding-right: 40px;
+    padding: 30px;
+}
+footer ul li {
+    display: inline;
+    font-size: 26px;
+    padding-left: 20px;
+}
+
