@@ -22,6 +22,11 @@ section img {
     border: solid 5px white;
 }
 
+.ruthbio h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
 .imageRuth img {
     margin: 0 auto;
     width: 90%;

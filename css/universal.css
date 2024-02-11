@@ -76,8 +76,8 @@ nav ul li {
     font-size: 30px;
 }
 
-nav ul li img {
-    height: 50px;
+nav ul li a {
+    color: black;
     transition: 0.5s;
 }
 
