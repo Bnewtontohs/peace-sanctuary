@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services and Prices</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Prices</title>
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <button class="mobileNav" onclick="nav()">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+            <div class="logo">
+                <a href="index.html"><img src="images/android-chrome-512x512.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mission.html">Our Mission</a></li>
+                    <li><a href="appointments.html">Appointments</a></li>
+                    <li><a href="prices.html">Prices</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script>
+        const mobileNavigation = document.getElementById("navigation");
+
+        function nav() {
+            mobileNavigation.classList.toggle("display");
+        }
+    </script>
 </body>
 </html>

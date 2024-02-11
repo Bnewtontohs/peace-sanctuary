@@ -1,10 +1,4 @@
-* {
-    font-family: "Caveat", cursive;
-    margin: 0;
-    text-decoration: none;
-}
-
-/* Header and Navigation */
+/* Header and Navigation 
 header {
     height: 100px;
     width: 100%;
@@ -76,6 +70,7 @@ nav ul li a:hover{
     color: rgb(32, 78, 206);
     font-size: 31px;
 }
+*/
 
 /* Body and Content */
 
@@ -176,7 +171,7 @@ footer ul li {
 }
 
 
-/* Mobile Navigation */
+/* Mobile Navigation 
 
 @media only screen and (max-width: 850px) {
     .container {
@@ -214,3 +209,5 @@ footer ul li {
         border: solid 5px white;
     }
 }    
+
+*/

@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/contactus.css">
-    <title>Contact Us</title>
 </head>
 <body>
     <header>
         <div class="container">
+            <button class="mobileNav" onclick="nav()">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
             <div class="logo">
-                <a href="index.html"><img src="images/android-chrome-512x512.png" alt="Logo" height="100px"  width="100px"></a>
+                <a href="index.html"><img src="images/android-chrome-512x512.png" alt="Logo"></a>
             </div>
             <nav>
                 <ul>
@@ -26,6 +33,7 @@
             </nav>
         </div>
     </header>
+
     <section>
         <div class="info">
             <h1>Get In Touch</h1>
@@ -33,5 +41,12 @@
             
         </div>
     </section>
+    <script>
+        const mobileNavigation = document.getElementById("navigation");
+
+        function nav() {
+            mobileNavigation.classList.toggle("display");
+        }
+    </script>
 </body>
 </html>
