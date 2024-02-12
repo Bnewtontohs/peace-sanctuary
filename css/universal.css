@@ -43,7 +43,6 @@ header {
 #navigation {
     text-align: center;
     background-color: #f5e9e9;
-    opacity: 0;
 }
 
 .display {
@@ -86,7 +85,7 @@ nav ul li a:hover{
     font-size: 31px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
     .container {
         grid-template-areas: 'logo . nav';
         grid-template-columns: 100px auto 100px;
