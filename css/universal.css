@@ -13,6 +13,7 @@ header {
     width: 100%;
     background-color: #f5e9e9;
     justify-items: center;
+    position: absolute;
 }
 
 .mobileNav {
