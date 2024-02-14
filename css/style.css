@@ -2,6 +2,7 @@ section {
     height: calc(100% - 700px);
     width: 100%;
     background-color: #caeded;
+    padding-top: 100px;
     padding-bottom: 20px;
 }
 
@@ -64,5 +65,8 @@ section img {
     .ruthbio {
         display: block;
     }
-
+    
+    section {
+        padding-top: 75px;
+    }
 }
