@@ -63,21 +63,14 @@ header {
 
 nav {
     grid-area: nav;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-nav ul {
-    margin-top: 25px;
-    float: right;
-    margin-right: 50px;
-}
-
-nav ul li {
-    display: inline;
+nav a {
     padding-left: 40px;
     font-size: 30px;
-}
-
-nav ul li a {
     color: black;
     transition: 0.5s;
 }
