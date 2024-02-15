@@ -44,19 +44,21 @@ header {
     height: 100px;
 }
 
-#navigation {
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
+/* Navigation */
 
 .navigation {
+    grid-area: nav;
     height: 0;
     overflow: hidden;
     width: 0;
     background-color: white;
+}
+
+.navigation div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .display {
@@ -72,15 +74,20 @@ header {
     padding: 10px;
     font-size: 40px;
     background-color: #1574d9;
-    align-self: flex-end;
+    float: right;
     border: none;
     margin-right: 30px;
 }
 
 #navigation a {
     color: black;
-    font-size: 40px;
-    padding: 10px 0;
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+#navigation a:hover {
+    color: #1574d9;
+    font-size: 51px;
 }
 
 nav {
