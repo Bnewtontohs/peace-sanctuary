@@ -51,8 +51,26 @@ header {
     align-items: center;
 }
 
+.navigation {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+    background-color: white;
+}
+
 .display {
-    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: #f5e9e9;
+    position: absolute;
+    z-index: 10;
+}
+
+.xbutton {
+    border-radius: 20%;
+    padding: 5px;
+    font-size: 40px;
+    background-color: #1574d9;
 }
 
 #navigation a {
