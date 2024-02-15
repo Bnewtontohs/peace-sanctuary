@@ -87,7 +87,7 @@ nav {
 }
 
 nav a {
-    padding-left: 40px;
+    padding:0 20px;
     font-size: 30px;
     color: black;
     transition: 0.5s;
