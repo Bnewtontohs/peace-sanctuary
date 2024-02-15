@@ -68,10 +68,13 @@ header {
 }
 
 .xbutton {
-    border-radius: 20%;
-    padding: 5px;
+    border-radius: 40%;
+    padding: 10px;
     font-size: 40px;
     background-color: #1574d9;
+    align-self: flex-end;
+    border: none;
+    margin-right: 30px;
 }
 
 #navigation a {
