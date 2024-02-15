@@ -21,6 +21,7 @@ header {
     display: none;
     padding: 10px;
     border: none;
+    background-color: #f5e9e9;
 }
 
 .mobileNav span {
@@ -32,6 +33,7 @@ header {
     display: grid;
     grid-template-areas: 'logo nav';
     grid-template-columns: 100px auto;
+    max-width: 1500px;
 }
 
 .logo {
@@ -43,22 +45,20 @@ header {
 }
 
 #navigation {
-    text-align: center;
-    background-color: #f5e9e9;
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .display {
     display: none;
 }
 
-#navigation li {
-    list-style-type: none;
+#navigation a {
+    color: black;
     font-size: 40px;
     padding: 10px 0;
-}
-
-#navigation li a {
-    color: black;
 }
 
 nav {
