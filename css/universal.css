@@ -50,8 +50,6 @@ header {
     width: 0;
     background-color: white;
     color: white;
-    position: fixed;
-    left: 99%;
     transition: 200ms;
 }
 
