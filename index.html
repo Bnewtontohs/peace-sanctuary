@@ -32,7 +32,11 @@
         </div>
     </header>
     <div id="navigation" class="navigation">
-        <button class="xbutton" onclick="closeNav()">X </button>
+        <button class="xbutton" onclick="closeNav()">
+            <span class="material-symbols-outlined">
+            close
+            </span>
+        </button>
         <br><br><br>
         <div>
             <a href="">Our Mission</a>
@@ -87,7 +91,7 @@
     </footer>
     <script>
         const mobileNavigation = document.getElementById("navigation");
-        
+
         function nav() {
             mobileNavigation.classList.add("display");
         }
