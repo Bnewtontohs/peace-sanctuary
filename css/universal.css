@@ -70,15 +70,15 @@ header {
 }
 
 .xbutton {
-    padding: 5px;
+    padding: 15px;
     float: right;
     border: none;
     background-color: #f5e9e9;
-    margin-right: 30px;
+    cursor: pointer;
 }
 
 .xbutton span {
-    font-size: 100px;
+    font-size: 200px;
     color: #000;
 }
 
