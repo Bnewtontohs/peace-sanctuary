@@ -77,6 +77,10 @@ header {
     cursor: pointer;
 }
 
+.xbutton:hover {
+    background-color: #97929257;
+}
+
 .xbutton span {
     font-size: 75px;
     color: #000;
