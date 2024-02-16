@@ -47,7 +47,6 @@ header {
 /* Navigation */
 
 .navigation {
-    grid-area: nav;
     height: 0;
     overflow: hidden;
     width: 0;
@@ -64,12 +63,11 @@ header {
 }
 
 .display {
-    position: relative;
+    position: fixed;
     z-index: 9999;
-    height: 3000px;
+    height: 100%;
     width: 100%;
     background-color: #f5e9e9;
-    margin-bottom: 100px;
 }
 
 .xbutton {
