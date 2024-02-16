@@ -74,12 +74,11 @@ header {
 }
 
 .xbutton {
-    padding: 5px 20px 5px 10px;
-    font-size: 40px;
+    padding: 5px 20px;
+    font-size: 70px;
     float: right;
     border: none;
     margin-right: 30px;
-    font-weight: 900;
 }
 
 #navigation a {
