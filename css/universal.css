@@ -64,12 +64,11 @@ header {
 }
 
 .display {
+    position: relative;
+    z-index: 9999;
     height: 3000px;
     width: 100%;
     background-color: #f5e9e9;
-    position: absolute;
-    top: 100px;
-    z-index: 108407391983987498184;
     margin-bottom: 100px;
 }
 
