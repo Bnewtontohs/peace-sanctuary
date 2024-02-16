@@ -64,8 +64,8 @@ header {
 
 .display {
     position: fixed;
-    z-index: 9999;
-    height: 100%;
+    top: 100px;
+    z-index: 100;
     width: 100%;
     background-color: #f5e9e9;
 }
