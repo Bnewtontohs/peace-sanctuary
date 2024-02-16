@@ -50,7 +50,7 @@ header {
     width: 0;
     background-color: white;
     color: white;
-    position: absolute;
+    position: fixed;
     left: 99%;
     transition: 200ms;
 }
