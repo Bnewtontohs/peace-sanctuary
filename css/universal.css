@@ -7,12 +7,13 @@
 /* Header */
 
 header {
-    height: 100px;
+    height: 70px;
     width: 100%;
-    background-color: #f5e9e9;
+    background-color: transparent;
     justify-items: center;
-    position: fixed;
+    position: absolute;
     top: 0;
+    z-index: 9999999;
 }
 
 .mobileNav {
@@ -30,18 +31,22 @@ header {
 .container {
     display: grid;
     grid-template-areas: 'logo nav';
-    grid-template-columns: 100px auto;
+    grid-template-columns: 300px auto;
     max-width: 1500px;
 }
 
 .logo {
     grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo img {
-    height: 100px;
+.logo a {
+    font-size: 30px;
+    color: #0A31F4;
+    font-weight: bold;
 }
-
 /* Navigation */
 
 .navigation {
