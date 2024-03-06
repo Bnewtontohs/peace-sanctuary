@@ -1,5 +1,5 @@
 * {
-    font-family: "Caveat", cursive;
+    font-family: "Inter", cursive;
     margin: 0;
     text-decoration: none;
 }
@@ -12,17 +12,21 @@ header {
     background-color: transparent;
     justify-items: center;
     position: absolute;
-    top: 0;
+    top: 10px;
     z-index: 9999999;
+    border-bottom: 1px solid white;
 }
 
 .mobileNav {
     display: none;
     padding: 10px;
     border: none;
-    background-color: #f5e9e9;
+    background-color: transparent;
+}
+
+.mobileNav span {
     font-size: 50px;
-    color: black;
+    color: #000;
 }
 
 .container {
@@ -53,6 +57,7 @@ header {
     background-color: white;
     color: white;
     transition: 200ms;
+    z-index: 954837057257482743875;
 }
 
 .navigation div {
