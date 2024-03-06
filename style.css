@@ -1,6 +1,8 @@
 section {
-    height: calc(100% - 70px);
+    height: calc(100vh - 70px);
     width: 100%;
+    background-image: url('images/wp7451911.jpeg');
+    background-size: cover;
     background-color: #caeded;
     display: flex;
     justify-content: center;
