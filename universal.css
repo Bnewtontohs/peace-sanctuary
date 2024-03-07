@@ -127,7 +127,7 @@ nav a:hover{
 @media only screen and (max-width: 900px) {
     .container {
         grid-template-areas: 'logo . nav';
-        grid-template-columns: 100px auto 100px;
+        grid-template-columns: 300px auto 100px;
     }
 
     .mobileNav {

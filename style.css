@@ -61,12 +61,20 @@ section h1 {
     margin-top: 40px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
     .ruthbio {
         display: block;
     }
     
+    section {
+        position: relative;
+    }
+
     section h1 {
-        font-family: 40px;
+        font-size: 40px;
+        position: absolute;
+        top: calc(50% + 70px);
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
