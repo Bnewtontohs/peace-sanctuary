@@ -13,8 +13,7 @@ header {
     justify-items: center;
     position: absolute;
     top: 10px;
-    z-index: 9999999;
-    border-bottom: 1px solid white;
+    z-index: 99;
 }
 
 .mobileNav {
@@ -45,7 +44,7 @@ header {
 
 .logo a {
     font-size: 30px;
-    color: #0A31F4;
+    color: #ffffff;
     font-weight: bold;
 }
 /* Navigation */
@@ -57,7 +56,7 @@ header {
     background-color: white;
     color: white;
     transition: 200ms;
-    z-index: 954837057257482743875;
+    z-index: 9999;
 }
 
 .navigation div {
@@ -114,9 +113,10 @@ nav {
 
 nav a {
     padding-right: 40px;
-    font-size: 30px;
+    font-size: 20px;
     color: black;
     transition: 0.5s;
+    font-weight: 600;
 }
 
 nav a:hover{
@@ -139,18 +139,6 @@ nav a:hover{
         display: none;
     }
 
-    header {
-        height: 75px;
-    }
-
-    .logo img {
-        height: 75px;
-    }
-
-    .logo {
-        height: 75px;
-        width: 75px;
-    }
 }
 
 /* Footer */
