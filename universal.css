@@ -60,7 +60,7 @@ header {
 
 .logo a {
     font-size: 30px;
-    background-image: linear-gradient(90deg, #0A31F4, white, #0A31F4, white, white,  #0A31F4);
+    background-image: linear-gradient(90deg, blue, white, blue, white, white,  blue);
     background-size: 600% 600%;
     background-clip: text;
     -webkit-background-clip: text;
