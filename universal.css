@@ -126,7 +126,7 @@ nav a:hover{
     font-size: 31px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .container {
         grid-template-areas: 'logo . nav';
         grid-template-columns: 300px auto 100px;
